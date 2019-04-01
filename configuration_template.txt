@@ -1,0 +1,26 @@
+# This file stores the essential configuration information:
+# 1. NGS data storage: 42 library (the last one must be library)
+#  a. NCBI: SRR IDs separated by tab
+#  b. Local: local directories
+# 2. WT fasta sequence
+# 3. Amplicon locations
+# 4. Mutation site in WT coordination
+# 5. Experiment conditions: 42 28 (order must match that of 1)
+
+**********BELOW are template configurations**********
+
+NGS data storage(if NCBI): NA
+NGS data storage(if local): 
+Seq_file1: /path/XXXXXX/BA03-FjB-104X-191X-42-Pool1_R1_001.fastq
+Seq_file2: /path/XXXXXX/BA03-FjB-104X-191X-42-Pool1_R2_001.fastq
+Seq_file3(lib): /path/XXXXXX/BA01-FjB-104X-191X-28-Pool1_R1_001.fastq
+Seq_file4(lib): /path/XXXXXX/BA01-FjB-104X-191X-28-Pool1_R2_001.fastq
+
+WT fasta: /path/XXXXXX/FjNrdF.fa
+
+Amplicon locations: (164,606)
+
+Mutation coordination in WT:(310,571)
+
+Condition: NrdF_42 NrdF_28
+
